@@ -88,31 +88,6 @@ function draw() {
   block23.display();
   block24.display();
   block25.display();
-  block1.score();
-  block2.score();
-  block3.score();
-  block4.score();
-  block5.score();
-  block6.score();
-  block7.score();
-  block8.score();
-  block9.score();
-  block10.score();
-  block11.score();
-  block12.score();
-  block13.score();
-  block14.score();
-  block15.score();
-  block16.score();
-  block17.score();
-  block18.score();
-  block19.score();
-  block20.score();
-  block21.score();
-  block22.score();
-  block23.score();
-  block24.score();
-  block25.score();
   sling.display();
   polygon.display();
 
@@ -140,7 +115,7 @@ function keyPressed() {
   
 }
 async function getBackgroundIMG(){
-  var response = await fetch("http://worldtimeapi.org/api/timezone/Asia/Kolkata")
+  var response = await fetch("https://worldtimeapi.org/api/timezone/Asia/Kolkata")
 
   var responseJSON = await response.json();
   //console.log(responseJSON)
